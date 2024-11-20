@@ -1,10 +1,13 @@
 package com.plcoding.bookpedia
 
 import androidx.compose.ui.window.ComposeUIViewController
-import io.ktor.client.engine.darwin.Darwin
+import com.plcoding.bookpedia.app.App
+import com.plcoding.bookpedia.di.initKoin
 
-fun MainViewController() = ComposeUIViewController {
-    App(
-        Darwin.create()
-    )
+fun MainViewController() = ComposeUIViewController(
+    configure = {
+        initKoin()
+    }
+) {
+    App()
 }
