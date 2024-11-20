@@ -5,7 +5,7 @@ import com.plcoding.bookpedia.core.presentation.UiText
 
 data class BookListState(
     val searchQuery : String = "kotlin",
-    val searchResults : List<Book> = books,
+    val searchResults : List<Book> = emptyList(),
     val favouriteBooks : List<Book> = emptyList(),
     val isLoading : Boolean = false,
     val selectedTabIndex : Int = 0,
