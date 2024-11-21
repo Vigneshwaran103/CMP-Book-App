@@ -47,7 +47,7 @@ fun BookDetailScreenRoot(
     onBackClick: () -> Unit
 ) {
 
-    val state by viewModel.bookDetailState.collectAsStateWithLifecycle()
+    val state by viewModel.state.collectAsStateWithLifecycle()
 
     BookDetailScreen(
         state = state,
