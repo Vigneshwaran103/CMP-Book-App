@@ -34,7 +34,6 @@ import cmp_bookpedia.composeapp.generated.resources.rating
 import cmp_bookpedia.composeapp.generated.resources.synopsis
 import com.plcoding.bookpedia.book.presentation.book_detail.components.BlurredImageBackground
 import com.plcoding.bookpedia.book.presentation.book_detail.components.BookChip
-import com.plcoding.bookpedia.book.presentation.book_detail.components.BookDetailViewModel
 import com.plcoding.bookpedia.book.presentation.book_detail.components.ChipSize
 import com.plcoding.bookpedia.book.presentation.book_detail.components.TitleToContent
 import com.plcoding.bookpedia.core.presentation.SandYellow

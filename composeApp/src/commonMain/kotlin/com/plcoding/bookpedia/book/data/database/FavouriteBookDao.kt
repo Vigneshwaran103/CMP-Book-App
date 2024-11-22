@@ -16,9 +16,9 @@ interface FavouriteBookDao {
     @Query("SELECT * FROM BookEntity")
     fun getFavouriteBooks(): Flow<List<BookEntity>>
 
-    @Query("SELECT * FROM BookEntity where id = :id")
+    @Query("SELECT * FROM BookEntity where id = :bookId")
     suspend fun getFavouriteBook(bookId: String): BookEntity?
 
-    @Query("DELETE * FROM BookEntity where id = :id")
+    @Query("DELETE FROM BookEntity where id = :bookId")
     suspend fun deleteFavouriteBook(bookId: String)
 }

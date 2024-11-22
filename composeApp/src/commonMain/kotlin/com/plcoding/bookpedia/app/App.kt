@@ -16,7 +16,7 @@ import androidx.navigation.compose.rememberNavController
 import com.plcoding.bookpedia.book.presentation.SelectedBookViewModel
 import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailAction
 import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailScreenRoot
-import com.plcoding.bookpedia.book.presentation.book_detail.components.BookDetailViewModel
+import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailViewModel
 import com.plcoding.bookpedia.book.presentation.book_list.BookListScreeRoot
 import com.plcoding.bookpedia.book.presentation.book_list.BookListViewModel
 import org.jetbrains.compose.ui.tooling.preview.Preview
